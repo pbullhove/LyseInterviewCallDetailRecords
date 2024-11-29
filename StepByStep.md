@@ -1,7 +1,7 @@
 # My Thought Process While Solving This.
 
-
 Jeg valgte å ikke bruke noe Copilot eller GPT for denne oppgaven, for at dere skal få testet min kunnskap og ikke GPT. I et vanlig oppdrag ville jeg brukt det på deler av oppgaven for å spare tid.
+Men jeg gjorde noen Google søk for å søke opp noe syntax for LINQ, JSON reading og tuples.    
 
 1. Først lagde jeg en konsoll-applikasjon i dotnet. `dotnet new console -n CallDetailRecords`
 2. Dernest kopierte inn `cdrs.json`-filen
@@ -12,8 +12,8 @@ Jeg valgte å ikke bruke noe Copilot eller GPT for denne oppgaven, for at dere s
 7. Lager først "tomme" utility-funksjoner for alle tre kravene, med noen kommentarer på hvordan jeg kan løse dem. 
 8. Lager så en test-prosjekt, som har tomme test-caser for alle tre kravene. Og lager en test-array fra dataen. 
 9. Og så lager jeg en konstruktør i test-klassen som lager testdataen som en riktig. Her hardkoder jeg inn for at test-filen skal være uten avhengigheter. Gjør også dataen lettere å lese for test-casene. 
-10. Lager tre tester for TotalDurationToCaller, implementerer metoden og sjekker at den returnerer riktig.   
-11. Lager testene for TotalDistinctPhoneNumbers
+10. Lager tre tester for `TotalDurationToCaller`, implementerer metoden og sjekker at den returnerer riktig.   
+11. Jeg gjør dette for `MostActiveCallersByNumberOfCalls` og `TotalDistinctPhoneNumbers` også. 
 
 
 
