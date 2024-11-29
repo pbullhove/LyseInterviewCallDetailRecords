@@ -1,0 +1,13 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ddfc4f14_002D7ca3_002D4804_002D9b62_002Dc76298260efa/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestCallDetailUtilities" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.TestCallDetailUtilities&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f2e9a3ce_002D892d_002D40a6_002Db63a_002D6a22116520fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestCallDetailUtilities #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.TestTotalDurationToCaller__ValidCaller__ValidDuration&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.TestTotalDurationToCaller__CallerDoesNotExist__ReturnsZero&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.TestTotalDurationToCaller__NoRecords__ReturnsZero&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

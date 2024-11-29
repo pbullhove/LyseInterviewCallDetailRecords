@@ -20,4 +20,8 @@
         <Using Include="Xunit"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CallDetailRecords\CallDetailRecords.csproj" />
+    </ItemGroup>
+
 </Project>
