@@ -14,7 +14,4 @@ Men jeg gjorde noen Google søk for å søke opp noe syntax for LINQ, JSON readi
 9. Og så lager jeg en konstruktør i test-klassen som lager testdataen som en riktig. Her hardkoder jeg inn for at test-filen skal være uten avhengigheter. Gjør også dataen lettere å lese for test-casene. 
 10. Lager tre tester for `TotalDurationToCaller`, implementerer metoden og sjekker at den returnerer riktig.   
 11. Jeg gjør dette for `MostActiveCallersByNumberOfCalls` og `TotalDistinctPhoneNumbers` også. 
-
-
-
-Ønsket også at dette ikke bare skulle kjøre, men også være noe performant når det blir snakk om millarder av rader. Så jeg ville skrive kode for å generere et mye større datasett, med én million rader.
+12. Til slutt leser jeg inn datafilen i `Program.cs` og skriver `Console.WriteLines` slik at output blir det som er ønsket.  
