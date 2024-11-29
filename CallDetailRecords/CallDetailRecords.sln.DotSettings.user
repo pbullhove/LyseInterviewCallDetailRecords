@@ -4,10 +4,15 @@
     &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.TestCallDetailUtilities&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f2e9a3ce_002D892d_002D40a6_002Db63a_002D6a22116520fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestCallDetailUtilities #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=effeb348_002D5984_002D471a_002Dbaa8_002De05b42e477b8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="MostActiveCallerByNumberOfCalls__ValidCalls__MostActive" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.TestTotalDurationToCaller__ValidCaller__ValidDuration&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.TestTotalDurationToCaller__CallerDoesNotExist__ReturnsZero&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.TestTotalDurationToCaller__NoRecords__ReturnsZero&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.MostActiveCallerByNumberOfCalls__ValidCalls__ReturnsCorrect&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.MostActiveCallerByNumberOfCalls__PickZero__ReturnsEmpty&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities.MostActiveCallerByNumberOfCalls__EmptyArray__ReturnsEmpty&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f2e9a3ce_002D892d_002D40a6_002Db63a_002D6a22116520fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestCallDetailUtilities #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A983C2DB-F213-464D-834F-066EAA2D1B4A::net8.0::CallDetailRecords.Tests.TestCallDetailUtilities&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -3,9 +3,8 @@ using Xunit.Abstractions;
 
 namespace CallDetailRecords.Tests;
 
-public class TestCallDetailUtilities(ITestOutputHelper output)
+public class TestCallDetailUtilities()
 {
-    private readonly ITestOutputHelper _output = output;
     private IEnumerable<CallDetailRecord> _records = new List<CallDetailRecord>
     {
         new() { Caller = "1", Receiver = "2", Duration = 1 },
@@ -34,5 +33,45 @@ public class TestCallDetailUtilities(ITestOutputHelper output)
     {
         var result = CallDetailUtilities.TotalDurationToCaller([], "x");
         Assert.Equal(0, result);
+    }
+    
+    [Fact]
+    public void TestTotalDistinctPhoneNumbers__ValidRecords__ValidDistinctPhoneNumbers()
+    {
+        var result = CallDetailUtilities.TotalDistinctPhoneNumbers(_records);
+        Assert.Equal(4, result); 
+    }
+    
+    [Fact]
+    public void TestTotalDurationToCaller__EmptyRecords__ReturnsZero()
+    {
+        var result = CallDetailUtilities.TotalDistinctPhoneNumbers([]);
+        Assert.Equal(0, result);
+    }
+
+
+    [Fact]
+    public void MostActiveCallerByNumberOfCalls__ValidCalls__ReturnsCorrect()
+    {
+        var callers =  CallDetailUtilities.MostActiveCallersByNumberOfCalls(_records, 3);
+        
+        Assert.Equal(3, callers.Count());
+        Assert.Equal(("1", 3), callers.First());
+        Assert.Equal(("2", 1), callers.Skip(1).First());
+        Assert.Equal(("3", 1), callers.Skip(2).First());
+    }
+    
+    [Fact]
+    public void MostActiveCallerByNumberOfCalls__PickZero__ReturnsEmpty()
+    {
+        var callers =  CallDetailUtilities.MostActiveCallersByNumberOfCalls(_records, 0);
+        Assert.Empty(callers);
+    }
+    
+    [Fact]
+    public void MostActiveCallerByNumberOfCalls__EmptyArray__ReturnsEmpty()
+    {
+        var callers =  CallDetailUtilities.MostActiveCallersByNumberOfCalls([]);
+        Assert.Empty(callers);
     }
 }
